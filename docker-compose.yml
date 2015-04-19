@@ -1,10 +1,10 @@
 web:
-  build: .
+  build: ./source
   command: python app.py
   ports:
    - "5000:5000"
   volumes:
-   - .:/code
+   - ./source:/code
   links:
    - redis
 redis:
