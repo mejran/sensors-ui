@@ -1,0 +1,10 @@
+ui:
+  build: .
+  links:
+   - db
+  ports:
+   - "8000:8000"
+monitor:
+graphite:
+mongodb:
+  image: postgres
