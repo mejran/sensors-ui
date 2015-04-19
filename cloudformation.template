@@ -47,7 +47,7 @@
     }
 ,
     "AWSRegionArch2AMI" : {
-      "us-east-1"        : {"HVM64" : "ami-12793a7a"},
+      "us-east-1"        : {"HVM64" : "ami-12793a7a"}
     }
 
   },
