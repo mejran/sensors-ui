@@ -9,9 +9,6 @@ web:
    - redis
 graphite:
   image: hopsoft/graphite-statsd
-  volumes:
-  - /data/graphite/opt:/opt/graphite
-  - /data/graphite/log:/var/log
   ports:
   - "80:80"
   - "2003:2003"
