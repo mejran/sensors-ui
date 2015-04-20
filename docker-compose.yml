@@ -7,7 +7,7 @@ web:
    - ./source:/code
   links:
    - redis
-graphite
+graphite:
   build: /graphite
   volumes:
   - /data/graphite/opt:/opt/graphite
