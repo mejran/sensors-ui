@@ -8,7 +8,7 @@ web:
   links:
    - redis
 graphite:
-  image: hopsoft/graphite-statsd
+  image: kamon/grafana_graphite
   ports:
   - "80:80"
   - "2003:2003"
