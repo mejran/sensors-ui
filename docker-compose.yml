@@ -8,7 +8,6 @@ web:
   links:
    - redis
 graphite:
-  //build: ./graphite
   image: hopsoft/graphite-statsd
   volumes:
   - /data/graphite/opt:/opt/graphite
