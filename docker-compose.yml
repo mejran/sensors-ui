@@ -8,7 +8,7 @@ web:
   links:
    - redis
 graphite:
-  build: /graphite
+  build: ./graphite
   volumes:
   - /data/graphite/opt:/opt/graphite
   - /data/graphite/log:/var/log
