@@ -8,7 +8,7 @@ web:
   links:
    - redis
 graphite:
-  image: kamon/grafana_graphite
+  image: cooniur/grafana_graphite:latest
   ports:
   - "80:80"
   - "2003:2003"
