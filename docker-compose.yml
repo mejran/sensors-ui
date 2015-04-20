@@ -7,5 +7,14 @@ web:
    - ./source:/code
   links:
    - redis
+graphite
+  build: /graphite
+  volumes:
+  - /data/graphite/opt:/opt/graphite
+  - /data/graphite/log:/var/log
+  ports:
+  - "80:80"
+  - "2003:2003"
+  - "8125:8125/udp"
 redis:
   image: redis
